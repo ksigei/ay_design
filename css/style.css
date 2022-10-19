@@ -1,0 +1,80 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #798795;
+    background: #f5f5f5;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 80px;
+    /* bottom: 0%; */
+
+    background: #fff3e9;
+
+    display: flex;
+}
+
+nav .logo {
+    position: absolute;
+    left: 5.56%;
+    right: 79.17%;
+    top: 12.5%;
+    bottom: 12.5%;
+
+    background: url(../images/ay_logo.png);
+}
+
+nav ul {
+    position: absolute;
+    list-style: none;
+    display: flex;
+
+    position: absolute;
+    left: 44.89%;
+
+    right: 31.46%;
+    top: 33.75%;
+    gap: 4.44%;
+}
+
+nav ul li {
+    /* Para */
+
+    font-family: "Avenir LT Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 156.5%;
+    /* identical to box height, or 25px */
+
+    font-feature-settings: "tnum"on, "lnum"on;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav .account {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1263.18px;
+    top: 20%;
+
+    background: url(../images/ellipse_12.png);
+}
