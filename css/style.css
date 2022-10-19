@@ -1,78 +1,124 @@
 body {
-    font-family: "Nunito", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    background: #f5f5f5;
-    overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background: #f5f5f5;
+  overflow-x: hidden;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    height: 80px;
-    /* bottom: 0%; */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 80px;
+  /* bottom: 0%; */
 
-    background: #fff3e9;
+  background: #fff3e9;
 
-    display: flex;
+  display: flex;
 }
 
 nav .logo {
-    position: absolute;
-    left: 5.56%;
-    right: 79.17%;
-    top: 12.5%;
-    bottom: 12.5%;
+  position: absolute;
+  left: 5.56%;
+  right: 79.17%;
+  top: 12.5%;
+  bottom: 12.5%;
 
-    /* background: url(../images/ay_logo.png); */
+  /* background: url(../images/ay_logo.png); */
 }
 
-nav .logo image {}
+nav .logo image {
+}
 
 nav ul {
-    position: absolute;
-    list-style: none;
-    display: flex;
+  position: absolute;
+  list-style: none;
+  display: flex;
 
-    position: absolute;
-    left: 63.89%;
-    right: 20.07%;
+  position: absolute;
+  left: 63.89%;
+  right: 20.07%;
 
-    /* right: 31.46%; */
-    top: 33.75%;
-    gap: 4.44%;
+  /* right: 31.46%; */
+  top: 33.75%;
+  gap: 4.44%;
 }
 
 nav ul li a {
-    /* Para */
-    text-decoration: none;
-    color: #000000;
-    font-family: "Avenir LT Std";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 156.5%;
-    /* identical to box height, or 25px */
+  /* Para */
+  text-decoration: none;
+  color: #000000;
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 156.5%;
+  /* identical to box height, or 25px */
 
-    font-feature-settings: "tnum"on, "lnum"on;
+  font-feature-settings: "tnum" on, "lnum" on;
 }
 
 nav .account {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 1263.18px;
-    top: 20%;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 1263.18px;
+  top: 20%;
 
-    background: url(../images/ellipse_12.png);
+  background: url(../images/ellipse_12.png);
+}
+
+/* intro section */
+.intro-section {
+  position: absolute;
+  width: 277px;
+  height: 44px;
+  left: 155.81px;
+  top: 147.21px;
+}
+.intro-title {
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36.49px;
+  line-height: 44px;
+  /* identical to box height */
+
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+.intro-text {
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.78px;
+  line-height: 160%;
+  /* or 36px */
+
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+.intro-content {
+  position: absolute;
+  width: 1066.93px;
+  height: 482.29px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5.56%;
+}
+
+button {
+  background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
+  border-radius: 50px;
 }
