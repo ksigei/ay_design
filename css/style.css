@@ -35,7 +35,12 @@ nav .logo {
     top: 12.5%;
     bottom: 12.5%;
 
-    background: url(../images/ay_logo.png);
+    /* background: url(../images/ay_logo.png); */
+}
+
+nav .logo image {
+
+   
 }
 
 nav ul {
