@@ -118,7 +118,19 @@ nav .account {
   gap: 5.56%;
 }
 
-button {
-  background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
-  border-radius: 50px;
+.intro-btns {
+    display: flex;
+
+}
+
+.btn-join {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    border-radius: 50px;
+}
+
+.btn-schedule {
+background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
