@@ -2,7 +2,6 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #798795;
     background: #f5f5f5;
     overflow-x: hidden;
 }
@@ -38,10 +37,7 @@ nav .logo {
     /* background: url(../images/ay_logo.png); */
 }
 
-nav .logo image {
-
-   
-}
+nav .logo image {}
 
 nav ul {
     position: absolute;
@@ -49,16 +45,18 @@ nav ul {
     display: flex;
 
     position: absolute;
-    left: 44.89%;
+    left: 63.89%;
+    right: 20.07%;
 
-    right: 31.46%;
+    /* right: 31.46%; */
     top: 33.75%;
     gap: 4.44%;
 }
 
-nav ul li {
+nav ul li a {
     /* Para */
-
+    text-decoration: none;
+    color: #000000;
     font-family: "Avenir LT Std";
     font-style: normal;
     font-weight: 300;
@@ -67,11 +65,6 @@ nav ul li {
     /* identical to box height, or 25px */
 
     font-feature-settings: "tnum"on, "lnum"on;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #000000;
 }
 
 nav .account {
