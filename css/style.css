@@ -402,6 +402,28 @@ nav .account {
   gap: 155.55px;
   margin-top: 87.57px;
 }
+.team-section .teachers-container .teacher-name-list {
+}
+.team-section .teachers-container .teacher-name-list ul {
+  list-style: none;
+  padding: 0;
+}
+.team-section .teachers-container .teacher-name-list ul li {
+  padding: 0 0 52.62px 0;
+}
+.team-section .teachers-container .teacher-name-list ul .active {
+  font-size: 28.83px;
+  line-height: 35px;
+
+  color: #fe5266;
+  list-style: disc;
+}
+.team-section .teachers-container .teacher-name-list ul li a {
+  font-size: 22.78px;
+  line-height: 27px;
+  color: #8c8c8c;
+  text-decoration: none;
+}
 .team-section .teachers-container .teacher-details {
   display: flex;
 }
@@ -421,7 +443,12 @@ nav .account {
   background: #fe5268;
   border-radius: 16px;
 }
-.team-section .teachers-container .teacher-details .image-name-container .teacher-image img {
+.team-section
+  .teachers-container
+  .teacher-details
+  .image-name-container
+  .teacher-image
+  img {
   position: absolute;
   width: 226px;
   height: 226px;
