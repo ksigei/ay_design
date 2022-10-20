@@ -297,7 +297,7 @@ nav .account {
   left: 0px;
   top: 1227.52px;
 
-  background: #F5F5F5;
+  background: #f5f5f5;
   opacity: 0.87;
   border-radius: 16px;
 
@@ -385,6 +385,60 @@ nav .account {
   text-fill-color: transparent;
 }
 /* end of schedule */
+/* team */
+.team-section {
+  position: absolute;
+  width: 1058px;
+  height: 609px;
+  top: 1920px;
+  left: 155.39px;
+}
+.team-section .team-section-title {
+  font-size: 36.49px;
+  line-height: 44px;
+}
+.team-section .teachers-container {
+  display: flex;
+  gap: 155.55px;
+  margin-top: 87.57px;
+}
+.team-section .teachers-container .teacher-details {
+  display: flex;
+}
+.team-section .teachers-container .teacher-details .image-name-container {
+  width: 278.18px;
+  height: 278.18px;
+}
+.team-section
+  .teachers-container
+  .teacher-details
+  .image-name-container
+  .teacher-image {
+  position: absolute;
+  width: 182px;
+  height: 160px;
+
+  background: #fe5268;
+  border-radius: 16px;
+}
+.team-section .teachers-container .teacher-details .image-name-container .teacher-image img {
+  position: absolute;
+  width: 226px;
+  height: 226px;
+
+  background: url(../images/ashrei.png);
+  border-radius: 16px;
+}
+.team-section .teachers-container .teacher-details .teacher-bio {
+  width: 465px;
+  height: 281px;
+
+  font-size: 16px;
+  line-height: 156.5%;
+
+  color: #4d4d4d;
+}
+/* end of team */
 
 /* contact section */
 .contact-section {
