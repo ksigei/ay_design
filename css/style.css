@@ -1,9 +1,9 @@
 body {
-  font-family: "Nunito", sans-serif;
-  font-weight: normal;
+  font-family: "Avenir LT Std";
   font-style: normal;
-  background: #f5f5f5;
-  overflow-x: hidden;
+  font-weight: 300;
+  color: #000000;
+  overflow-x: hidden;  
 }
 
 * {
@@ -58,15 +58,10 @@ nav ul {
 nav ul li a {
   /* Para */
   text-decoration: none;
-  color: #000000;
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
+
   font-size: 16px;
   line-height: 156.5%;
   /* identical to box height, or 25px */
-
-  font-feature-settings: "tnum" on, "lnum" on;
 }
 
 nav .account {
@@ -90,31 +85,22 @@ nav .account {
 }
 
 .intro-title {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 36.49px;
   line-height: 44px;
   /* identical to box height */
-
-  font-feature-settings: "tnum" on, "lnum" on;
 }
 
 .intro-text {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 22.78px;
   line-height: 160%;
   /* or 36px */
 
-  font-feature-settings: "tnum" on, "lnum" on;
   margin: 0 0 25.92px 0;
 }
 
 .intro-content {
   position: absolute;
-  width: 1066.93px;
+  /* width: 1066.93px; */
   height: 482.29px;
 
   display: flex;
@@ -152,12 +138,8 @@ nav .account {
 }
 
 .intro-details-tabs h3 {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 22.78px;
   line-height: 27px;
-  font-feature-settings: "tnum" on, "lnum" on;
 }
 
 .intro-details-tabs .tab-active {
@@ -170,28 +152,17 @@ nav .account {
 }
 
 .intro-details .intro-details-text p {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 20.25px;
   line-height: 160%;
   /* or 32px */
-
-  font-feature-settings: "tnum" on, "lnum" on;
-
-  color: #000000;
 }
 
 .intro-details .price {
   margin: 0 0 43.69px 0;
-  font-family: "Avenir LT Std";
-  font-style: normal;
   font-weight: 750;
   font-size: 18px;
   line-height: 156.5%;
   /* or 28px */
-
-  font-feature-settings: "tnum" on, "lnum" on;
 
   /* GradientText */
 
@@ -199,7 +170,7 @@ nav .account {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .intro-btns {
@@ -212,16 +183,12 @@ nav .account {
   width: 133.41px;
   background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
   border-radius: 50px;
+  border: none;
 
   /* text */
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 18px;
   line-height: 156.5%;
   /* or 28px */
-
-  font-feature-settings: "tnum" on, "lnum" on;
 
   color: #ffffff;
 }
@@ -232,6 +199,7 @@ nav .account {
   width: 172.44px;
 
   border-radius: 50px;
+  border: 2px solid #f24397;
   background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -241,7 +209,7 @@ nav .account {
 /* start of program */
 .program-section {
   position: absolute;
-  width: 1441.13px;
+  width: 100vw;
   height: 442.4px;
   left: 0px;
   top: 785.12px;
@@ -259,15 +227,8 @@ nav .account {
   display: flex;
   flex-direction: column;
 
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   line-height: 156.5%;
   /* or 59px */
-
-  font-feature-settings: "tnum" on, "lnum" on;
-
-  color: #000000;
 
   width: 500px;
   margin: 48.88px 0 0 0;
@@ -288,24 +249,16 @@ nav .account {
   gap: 5.56%;
 }
 .program-timeline h3 {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 37.65px;
   line-height: 97px;
-  font-feature-settings: "tnum" on, "lnum" on;
 
   /* GradientText */
   background-clip: text;
   text-fill-color: transparent;
 }
 .program-timeline h3 span {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 80.49px;
   line-height: 97px;
-  font-feature-settings: "tnum" on, "lnum" on;
 
   /* GradientText */
 
@@ -316,14 +269,9 @@ nav .account {
   text-fill-color: transparent;
 }
 .program-timeline p {
-  font-family: "Avenir LT Std";
-  font-style: normal;
-  font-weight: 300;
   font-size: 32.443px;
   line-height: 39px;
   /* identical to box height */
-
-  font-feature-settings: "tnum" on, "lnum" on;
 
   color: #565656;
 }
@@ -339,6 +287,114 @@ nav .account {
 /* end of program */
 /* start of schedule */
 .schedule-section {
-  
 }
 /* end of schedule */
+
+/* contact section */
+.contact-section {
+  position: absolute;
+  width: 100vw;
+  height: 458px;
+  left: 0px;
+  top: 1237.52px;
+
+  background: #fff3e9;
+  opacity: 0.87;
+  border-radius: 16px;
+
+  display: flex;
+
+  padding: 0 155.39px 0 160.12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5.56%;
+  margin: 48.88px 0 0 0;
+}
+
+.contact-actions {
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 5.56%; */
+  gap: 448px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 16px;
+}
+
+.contact-actions .contact-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5.56%;
+
+  /* identical to box height */
+}
+
+.contact-actions .contact-title h3 {
+  font-size: 28.83px;
+  line-height: 35px;
+  padding-bottom: 16px;
+}
+
+.contact-actions .contact-title p {
+  font-size: 36.49px;
+  line-height: 44px;
+}
+.contact-actions .contact-contacts {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5.56%; */
+  gap: 37px;
+}
+.contact-actions .contact-contacts p {
+  font-size: 18px;
+  line-height: 156.5%;
+  /* or 28px */
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5.56%;
+  margin: 48.88px 0 0 0;
+  width: 521px;
+  height: 75px;
+
+  font-size: 16px;
+  line-height: 156.5%;
+}
+/* end of contact section */
+
+/* footer */
+footer {
+  position: absolute;
+  width: 100vw;
+  height: 81px;
+  left: 0px;
+  top: 1696px;
+
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  gap: 22px;
+}
+footer ul li {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #fff3e9;
+}
+footer ul :first-child {
+  list-style: none;
+}
+footer ul li a {
+  color: #fff3e9;
+}
+/* end of footer */
