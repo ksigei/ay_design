@@ -50,7 +50,10 @@ nav ul {
 
   /* right: 31.46%; */
   top: 33.75%;
-  gap: 4.44%;
+  /* gap: 4.44%; */
+  gap: 64px;
+
+
 }
 
 nav ul li a {
@@ -71,7 +74,8 @@ nav .account {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 1263.18px;
+  /* left: 1263.18px; */
+  right: 129px;
   top: 20%;
 
   background: url(../images/ellipse_12.png);
@@ -106,6 +110,7 @@ nav .account {
   /* or 36px */
 
   font-feature-settings: "tnum"on, "lnum"on;
+  margin: 0 0 25.92px 0;
 }
 
 .intro-content {
@@ -126,7 +131,7 @@ nav .account {
   height: 398.07px;
   /* left: 156px; */
   /* top: 259.57px; */
-  
+
   background: #C4C4C4;
   opacity: 0.7;
   border-radius: 16px;
@@ -202,7 +207,7 @@ nav .account {
 .intro-btns {
   display: flex;
   gap: 5.56%;
-  
+
 }
 
 .btn-join {
@@ -213,15 +218,15 @@ nav .account {
 
   /* text */
   font-family: 'Avenir LT Std';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 156.5%;
-/* or 28px */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 156.5%;
+  /* or 28px */
 
-font-feature-settings: 'tnum' on, 'lnum' on;
+  font-feature-settings: 'tnum'on, 'lnum'on;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .btn-schedule {
@@ -230,7 +235,7 @@ color: #FFFFFF;
   width: 172.44px;
 
 
-border-radius: 50px;
+  border-radius: 50px;
   background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
