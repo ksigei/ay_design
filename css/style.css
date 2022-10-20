@@ -426,6 +426,7 @@ nav .account {
 }
 .team-section .teachers-container .teacher-details {
   display: flex;
+  /* gap: 25px; */
 }
 .team-section .teachers-container .teacher-details .image-name-container {
   width: 278.18px;
@@ -442,19 +443,19 @@ nav .account {
 
   background: #fe5268;
   border-radius: 16px;
+  margin: 39px 0 0 48.88px;
 }
 .team-section
   .teachers-container
   .teacher-details
   .image-name-container
-  .teacher-image
+  .teacher-imagess
   img {
   position: absolute;
   width: 226px;
   height: 226px;
-
-  background: url(../images/ashrei.png);
   border-radius: 16px;
+  margin: -37px 0 0 0;
 }
 .team-section .teachers-container .teacher-details .teacher-bio {
   width: 465px;
