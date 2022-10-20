@@ -37,8 +37,7 @@ nav .logo {
   /* background: url(../images/ay_logo.png); */
 }
 
-nav .logo image {
-}
+nav .logo image {}
 
 nav ul {
   position: absolute;
@@ -65,7 +64,7 @@ nav ul li a {
   line-height: 156.5%;
   /* identical to box height, or 25px */
 
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: "tnum"on, "lnum"on;
 }
 
 nav .account {
@@ -86,6 +85,7 @@ nav .account {
   left: 155.81px;
   top: 147.21px;
 }
+
 .intro-title {
   font-family: "Avenir LT Std";
   font-style: normal;
@@ -94,8 +94,9 @@ nav .account {
   line-height: 44px;
   /* identical to box height */
 
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: "tnum"on, "lnum"on;
 }
+
 .intro-text {
   font-family: "Avenir LT Std";
   font-style: normal;
@@ -104,33 +105,133 @@ nav .account {
   line-height: 160%;
   /* or 36px */
 
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: "tnum"on, "lnum"on;
 }
+
 .intro-content {
   position: absolute;
   width: 1066.93px;
   height: 482.29px;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 
   gap: 5.56%;
 }
 
-.intro-btns {
-    display: flex;
+.intro-video {
+  /* position: absolute; */
+  width: 634.48px;
+  height: 398.07px;
+  /* left: 156px; */
+  /* top: 259.57px; */
+  
+  background: #C4C4C4;
+  opacity: 0.7;
+  border-radius: 16px;
+}
 
+.intro-details {
+  display: flex;
+  flex-direction: column;
+  width: 432px;
+  height: 482.29px;
+  /* justify-content: space-between; */
+}
+
+.intro-details-tabs {
+  display: flex;
+  gap: 65.32px;
+  /* gap: 10.78%; */
+  margin-bottom: 35.55px;
+}
+
+.intro-details-tabs h3 {
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.78px;
+  line-height: 27px;
+  font-feature-settings: "tnum"on, "lnum"on;
+}
+
+.intro-details-tabs .tab-active {
+  color: #fe5266;
+  border-bottom: 2px solid #fe5266;
+}
+
+.intro-details .intro-details-text {
+  margin: 0 0 87.12px 0;
+}
+
+.intro-details .intro-details-text p {
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20.25px;
+  line-height: 160%;
+  /* or 32px */
+
+  font-feature-settings: "tnum"on, "lnum"on;
+
+  color: #000000;
+}
+
+.intro-details .price {
+  margin: 0 0 43.69px 0;
+  font-family: 'Avenir LT Std';
+  font-style: normal;
+  font-weight: 750;
+  font-size: 18px;
+  line-height: 156.5%;
+  /* or 28px */
+
+  font-feature-settings: 'tnum'on, 'lnum'on;
+
+  /* GradientText */
+
+  background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+.intro-btns {
+  display: flex;
+  gap: 5.56%;
+  
 }
 
 .btn-join {
-    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
-    border-radius: 50px;
+  height: 69.92px;
+  width: 133.41px;
+  background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
+  border-radius: 50px;
+
+  /* text */
+  font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 156.5%;
+/* or 28px */
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #FFFFFF;
 }
 
 .btn-schedule {
-background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  box-sizing: border-box;
+  height: 69.92px;
+  width: 172.44px;
 
+
+border-radius: 50px;
+  background: linear-gradient(90.19deg, #f24397 0.17%, #f64c3b 105.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
