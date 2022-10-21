@@ -302,6 +302,7 @@ nav .account {
   border-radius: 16px;
 
   display: flex;
+  flex-direction: column;
 
   margin: 56.95px 136.11px 149.41px 177.3px;
   /* margin-top: 56.95px; */
@@ -395,6 +396,9 @@ nav .account {
   line-height: 156.5%;
   margin-bottom: 11.35px;
 }
+.schedule-section .schedule-container .schedule-details .schedule-details-text p {
+  width: 421px;
+}
 .schedule-section .schedule-container .schedule-details a {
   font-size: 22.78px;
   line-height: 160%;
@@ -413,6 +417,8 @@ nav .account {
   height: 609px;
   top: 1920px;
   left: 155.39px;
+  display: flex;
+  flex-direction: column;
 }
 .team-section .team-section-title {
   font-size: 36.49px;
@@ -420,10 +426,12 @@ nav .account {
 }
 .team-section .teachers-container {
   display: flex;
-  gap: 155.55px;
+  gap: 111.55px;
   margin-top: 87.57px;
+  margin-left: 44px;
 }
 .team-section .teachers-container .teacher-name-list {
+
 }
 .team-section .teachers-container .teacher-name-list ul {
   list-style: none;
@@ -494,22 +502,22 @@ nav .account {
   color: #4d4d4d;
 }
 
-.team-section .teachers-container .teacher-details .teacher-nav-btns {
+.team-section .teacher-nav-btns {
   display: flex;
   gap: 19.34px;
   width: 35px;
   height: 35px;
-  padding: 5px 0 0 0;
-  margin: 23px 0 0 0;
+
+  margin: 23px 0 0 73vw;
 }
-.team-section .teachers-container .teacher-details .teacher-nav-btns .btn-prev {
+.team-section .teacher-nav-btns .btn-prev {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
 
   border-right: 15px solid #fe5266;
   border-radius: 4px;
 }
-.team-section .teachers-container .teacher-details .teacher-nav-btns .btn-next {
+.team-section .teacher-nav-btns .btn-next {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
 
