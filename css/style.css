@@ -303,7 +303,7 @@ nav .account {
 
   display: flex;
 
-  padding: 56.95px 155.39px 0 160.12px;
+  margin: 56.95px 136.11px 149.41px 177.3px;
   /* margin-top: 56.95px; */
 }
 .schedule-section .scedule-section-title {
@@ -339,26 +339,27 @@ nav .account {
   line-height: 39px;
   margin-bottom: 38.37px;
   display: flex;
-  /* gap: 210.34px; */
+  gap: 210.34px;
 }
 .schedule-section .schedule-container .schedule-details .nav-btns {
   display: flex;
   gap: 19.34px;
-  width: 0;
-  height: 0;
+  width: 35px;
+  height: 35px;
+  padding: 5px 0 0 0;
 }
 .schedule-section .schedule-container .schedule-details .nav-btns .btn-prev {
-  border-top: 17.5px solid transparent;
-  border-bottom: 17.5px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 
-  border-right: 17.5px solid #fe5266;
+  border-right: 15px solid #fe5266;
   border-radius: 4px;
 }
 .schedule-section .schedule-container .schedule-details .nav-btns .btn-next {
-  border-top: 17.5px solid transparent;
-  border-bottom: 17.5px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 
-  border-left: 17.5px solid #fe5266;
+  border-left: 15px solid #fe5266;
   border-radius: 4px;
 }
 .schedule-section
@@ -446,7 +447,13 @@ nav .account {
 }
 .team-section .teachers-container .teacher-details {
   display: flex;
-  /* gap: 25px; */
+  /* position: absolute; */
+  width: 739px;
+  height: 423px;
+
+  background: #c4c4c4;
+  /* opacity: 0.3; */
+  border-radius: 16px;
 }
 .team-section .teachers-container .teacher-details .image-name-container {
   width: 278.18px;
@@ -485,6 +492,29 @@ nav .account {
   line-height: 156.5%;
 
   color: #4d4d4d;
+}
+
+.team-section .teachers-container .teacher-details .teacher-nav-btns {
+  display: flex;
+  gap: 19.34px;
+  width: 35px;
+  height: 35px;
+  padding: 5px 0 0 0;
+  margin: 23px 0 0 0;
+}
+.team-section .teachers-container .teacher-details .teacher-nav-btns .btn-prev {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-right: 15px solid #fe5266;
+  border-radius: 4px;
+}
+.team-section .teachers-container .teacher-details .teacher-nav-btns .btn-next {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-left: 15px solid #fe5266;
+  border-radius: 4px;
 }
 /* end of team */
 
